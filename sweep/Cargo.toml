@@ -1,0 +1,20 @@
+[package]
+name = "cycles_sweep"
+version = "0.1.0"
+edition = "2021"
+description = "Temporary module: sends a site's cycles above a floor to mother, then gets replaced by piko-site again"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+candid = "0.10"
+ic-cdk = "0.20.3"
+ic-cdk-timers = "1.0.0"
+serde = { version = "1", features = ["derive"] }
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"
