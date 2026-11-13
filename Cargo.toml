@@ -1,0 +1,23 @@
+[package]
+name = "piko_site"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+candid = "0.10.40"
+ic-asset-certification = "4.0.1"
+ic-cdk = "0.20.3"
+ic-http-certification = "4.0.1"
+serde = "1.0.229"
+
+[build-dependencies]
+flate2 = "1.1.11"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"
