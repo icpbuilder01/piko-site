@@ -31,13 +31,13 @@ environment variables and its URL stay the same.
 
 | Site | Canister | Module (sha256 prefix) |
 |---|---|---|
-| Pixel | cglm2-byaaa-aaaac-bf4aq-cai | c1266033 |
-| Legacy | vnwxz-wiaaa-aaaak-qzk6a-cai | 7385262a |
-| Mining | 5xdl7-taaaa-aaaaj-qseeq-cai | b1b09d5b |
-| Dice | 77zu2-baaaa-aaaaj-qseiq-cai | 2ab82695 |
-| Blackjack | bcd2h-5iaaa-aaaai-ax4hq-cai | ef0304dc |
+| Pixel | cglm2-byaaa-aaaac-bf4aq-cai | a1b28e4c |
+| Legacy | vnwxz-wiaaa-aaaak-qzk6a-cai | a5b89446 |
+| Mining | 5xdl7-taaaa-aaaaj-qseeq-cai | ac12b360 |
+| Dice | 77zu2-baaaa-aaaaj-qseiq-cai | de9494a8 |
+| Blackjack | bcd2h-5iaaa-aaaai-ax4hq-cai | 4438ea0c |
 | Landing | 7w27g-xiaaa-aaaaj-qseja-cai | ac13946d |
-| Poker | 2uuxi-qyaaa-aaaac-qhbyq-cai | b2d8d61e |
+| Poker | 2uuxi-qyaaa-aaaac-qhbyq-cai | dc0aab73 |
 | Monitor | k6tpq-iqaaa-aaaaa-qhpfq-cai | 6089fe15 |
 
 Each module embeds that site's built files at the commit of its own
